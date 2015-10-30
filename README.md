@@ -44,17 +44,17 @@ Optional arguments:
                         a python regex for content to replace by the followed 
                         string in the file
 
-  * `-t TAG_TO_REPLACE STRING, --replace_tag TAG_TO_REPLACE STRING
+  * `-t TAG_TO_REPLACE STRING, --replace_tag TAG_TO_REPLACE STRING`
                         a tag to replace by the followed string in the file
                         
-  * `-f TAG_TO_REPLACE PATH, --replace_tag_file TAG_TO_REPLACE STRING
+  * `-f TAG_TO_REPLACE PATH, --replace_tag_file TAG_TO_REPLACE STRING`
                         a tag to replace by the content at the followed path
                         in the file
                         
-  * `-o OUTPUT_FILE, --output_file OUTPUT_FILE
+  * `-o OUTPUT_FILE, --output_file OUTPUT_FILE`
                         create a new file to output the modifications (by
                         default the modifications are done in-place), has no
                         effect if the target is a folder
                         
-  * `-R, --recursive    if the specified input file is a folder, recurse
+  * `-R, --recursive`   if the specified input file is a folder, recurse
                         through all subfolders
